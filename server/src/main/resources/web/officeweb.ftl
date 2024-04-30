@@ -60,7 +60,7 @@
 <body>
 <div id="lucky-mask-demo" style="position: absolute;z-index: 1000000;left: 0px;top: 0px;bottom: 0px;right: 0px; background: rgba(255, 255, 255, 0.8); text-align: center;font-size: 40px;align-items:center;justify-content: center;display: none;">加载中</div>
 <p style="text-align:center;">
-<div id="button-area">
+<div id="button-area" hidden>
     <label><button onclick="tiaozhuan()">跳转HTML预览</button></label>
     <button id="confirm-button" onclick="print()">打印</button>
 </div>
